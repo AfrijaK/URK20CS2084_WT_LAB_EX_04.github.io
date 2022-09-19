@@ -1,0 +1,30 @@
+body{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    /* flex-direction: column; */
+}
+
+.logo,
+.content{
+    display: flex ;
+    align-items: center;
+}
+
+.content{
+    gap: 50px;
+    align-items: center;
+}
+
+.nav_bar{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+}
